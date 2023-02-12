@@ -1,0 +1,34 @@
+$primary: red;
+$secondary: #444;
+$third: aliceblue;
+.header {
+  h3 {
+    color: $primary;
+  }
+  background-color: $secondary;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  .search {
+    position: relative;
+    color: $primary;
+    display: flex;
+    gap: 0.4rem;
+    font-size: 1.2rem;
+    .search-icon {
+      position: absolute;
+      right: 50px;
+      top: 4px;
+      color: $third;
+    }
+    input {
+      padding: 0.4rem;
+      color: $third;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid $third;
+      background-color: inherit;
+    }
+  }
+}
