@@ -1,0 +1,49 @@
+.containerProduct {
+  padding: 2rem;
+  .sales {
+    margin: 0 auto;
+    background-color: red;
+    height: 400px;
+    width: calc(100% / 1.5);
+    justify-self: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    .textSales {
+      color: aliceblue;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 900;
+    }
+    .imgSales {
+      display: flex;
+      justify-items: center;
+      img {
+        width: 400px;
+        border-radius: 50%;
+      }
+    }
+  }
+  h1 {
+    text-align: center;
+    padding: 2rem;
+  }
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    justify-items: center;
+
+    .cardProducts {
+      img {
+        width: 300px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+      }
+    }
+  }
+}

@@ -9,13 +9,13 @@ $third: aliceblue;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem;
   .search {
     position: relative;
     color: $primary;
     display: flex;
     gap: 0.4rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     .search-icon {
       position: absolute;
       right: 50px;
